@@ -40,7 +40,7 @@ class Auth extends Component {
 				touched: false
 			}
 		},
-		IsSignup: true
+		isSignup: true
 	};
 
 	checkValidation = (value, rules) => {

@@ -42,7 +42,7 @@ export const auth = (email, password, isSignup) => {
 		const authData = {
 			email: email,
 			password: password,
-			returnSecureTocken: true
+			returnSecureToken: true
 		};
 		let url =
 			'https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyD-pCfrjj8vUF54XpJgi_bX4QV7wuCJyvc';
