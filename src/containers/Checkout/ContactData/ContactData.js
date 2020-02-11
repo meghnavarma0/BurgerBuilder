@@ -116,9 +116,9 @@ class ContactData extends Component {
 			contactData: formData,
 			userId: this.props.userId
 		};
-		alert('You Continue!');
 
 		this.props.onOrderBurger(order, this.props.token);
+		alert('Your order has been placed successfully!');
 	};
 
 	inputChangedHandler = (event, inputIdentifier) => {
